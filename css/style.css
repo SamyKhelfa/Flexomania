@@ -18,14 +18,15 @@ h2 {
 }
 
 /* EXERCICE 1 */
-.exercice1 ul{
+.exercice1 ul {
   display: flex;
   flex-direction: row;
 }
 /* EXERCICE 2 */
-.exercice2 ul{
+.exercice2 ul {
   display: flex;
-  flex-direction: row-reverse;}
+  flex-direction: row-reverse;
+}
 /* EXERCICE 3 */
 
 .exercice3 ul {
@@ -33,43 +34,60 @@ h2 {
 }
 
 .exercice3 li {
-  text-align: center;  
+  text-align: center;
   flex-grow: 1;
-
 }
 /* EXERCICE 4 */
+.exercice4 {
+  justify-content: space-around;
+}
+
 .exercice4 ul {
   display: flex;
-  flex-direction: row;  
+  text-align: center;
 }
 
 .exercice4 li {
-  text-align: center;  
   flex-grow: 1;
+  justify-content: space-between;
+}
 
+.exercice4 li:nth-child(2) {
+  flex-grow: 4;
+}
+
+.exercice4 li:nth-child(1) {
+  margin-right: 30px;
+}
+
+.exercice4 li:nth-child(3) {
+  margin-left: 30px;
 }
 
 /* EXERCICE 5 */
 
-.exercice5 li{
-  align-items: baseline;
-
+.exercice5 {
+  display: flex;
+  justify-content: space-between;
 }
 
-.exercice5 ul{
+.exercice5 ul {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  }
+}
 
 /* EXERCICE 6 */
 .exercice6 ul {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.exercice6 li {
-justify-content: center;
+  width: 60px;
+  margin-left: 900px;
 }
 /* EXERCICE 7 */
+.exercice7 ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.exercice7 ul li {
+  border-radius: 20px;
+}
